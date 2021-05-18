@@ -1,0 +1,8 @@
+name: 'Webform Share Params'
+type: module
+description: 'Override the Webform Share share.js script to pass the parent page query parameters into the iframe'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Webform
+dependencies:
+  - webform:webform_share

@@ -1,0 +1,11 @@
+entity.webform.share_params_script:
+  path: '/webform/{webform}/share_params.js'
+  defaults:
+    _controller: '\Drupal\webform_share_params\Controller\WebformShareParamsController::script'
+  options:
+    parameters:
+      webform:
+        type: 'entity:webform'
+  requirements:
+    _entity_access: 'webform.submission_page'
+    _custom_access: '\Drupal\webform_share\Access\WebformShareAccess::checkAccess'
