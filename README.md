@@ -1,3 +1,7 @@
+# Description
+
+A Drupal (8, 9) module to override the Webform Share share.js script and pass the parent page query parameters into the iframe 
+
 # Usage
 
 - copy/paste the code to embed your form using Javascript method (via the "Share" tab of the webform)
